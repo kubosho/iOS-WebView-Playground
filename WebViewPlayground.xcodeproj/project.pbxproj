@@ -16,6 +16,8 @@
 		1206D85128880FE300D2EAE4 /* WebViewPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1206D85028880FE300D2EAE4 /* WebViewPlaygroundTests.swift */; };
 		1206D85B28880FE300D2EAE4 /* WebViewPlaygroundUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1206D85A28880FE300D2EAE4 /* WebViewPlaygroundUITests.swift */; };
 		1206D85D28880FE300D2EAE4 /* WebViewPlaygroundUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1206D85C28880FE300D2EAE4 /* WebViewPlaygroundUITestsLaunchTests.swift */; };
+		1206D87D288810AA00D2EAE4 /* WebView.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1206D87B288810AA00D2EAE4 /* WebView.storyboard */; };
+		1206D87E288810AA00D2EAE4 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1206D87C288810AA00D2EAE4 /* WebViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		1206D85628880FE300D2EAE4 /* WebViewPlaygroundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewPlaygroundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1206D85A28880FE300D2EAE4 /* WebViewPlaygroundUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPlaygroundUITests.swift; sourceTree = "<group>"; };
 		1206D85C28880FE300D2EAE4 /* WebViewPlaygroundUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewPlaygroundUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1206D87B288810AA00D2EAE4 /* WebView.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = WebView.storyboard; sourceTree = "<group>"; };
+		1206D87C288810AA00D2EAE4 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +105,7 @@
 			children = (
 				1206D83928880FE200D2EAE4 /* AppDelegate.swift */,
 				1206D83B28880FE200D2EAE4 /* SceneDelegate.swift */,
+				1206D8742888105300D2EAE4 /* WebView */,
 				1206D83D28880FE200D2EAE4 /* ViewController.swift */,
 				1206D83F28880FE200D2EAE4 /* Main.storyboard */,
 				1206D84228880FE300D2EAE4 /* Assets.xcassets */,
@@ -125,6 +130,15 @@
 				1206D85C28880FE300D2EAE4 /* WebViewPlaygroundUITestsLaunchTests.swift */,
 			);
 			path = WebViewPlaygroundUITests;
+			sourceTree = "<group>";
+		};
+		1206D8742888105300D2EAE4 /* WebView */ = {
+			isa = PBXGroup;
+			children = (
+				1206D87B288810AA00D2EAE4 /* WebView.storyboard */,
+				1206D87C288810AA00D2EAE4 /* WebViewController.swift */,
+			);
+			path = WebView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,6 +247,7 @@
 			files = (
 				1206D84628880FE300D2EAE4 /* LaunchScreen.storyboard in Resources */,
 				1206D84328880FE300D2EAE4 /* Assets.xcassets in Resources */,
+				1206D87D288810AA00D2EAE4 /* WebView.storyboard in Resources */,
 				1206D84128880FE200D2EAE4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +273,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1206D87E288810AA00D2EAE4 /* WebViewController.swift in Sources */,
 				1206D83E28880FE200D2EAE4 /* ViewController.swift in Sources */,
 				1206D83A28880FE200D2EAE4 /* AppDelegate.swift in Sources */,
 				1206D83C28880FE200D2EAE4 /* SceneDelegate.swift in Sources */,
